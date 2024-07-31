@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beymen.com Türkiye'nin Tek Dijital Lüks Platformu</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css"> <!-- Burada style.css dosyasını ekliyoruz -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ -->
+ 
+</head>
+
+<body>
+
+    <!-- Üst Header -->
+    <div class="top-header ">
+        <div class="container">
+            <div class=" row align-items-center ">
+                <div class="col-md-12">
+                    <div class=" d-flex  justify-content-end ">
+                        <a href="https://www.beymen.com/en/customer/ordertracking" class="link-item">Sipariş Takibi</a>
+                        <a href="https://www.beymen.com/en/sale-campaigns-14637" class="link-item">Kampanyalar</a>
+                        <a href="https://www.beymen.com/en/theone-c-1975" class="link-item">The One</a>
+                        <a href="https://www.beymen.com/en/our-services-c-1892" class="link-item">Servisler</a>
+                        <a href="#" class="link-item" id="link-tr" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+                          <i class="fa-solid fa-globe"></i> TR
+                      </a>
+
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+<!-- offcanvas -->
+                       
+<!-- Offcanvas -->
+<div class="offcanvas offcanvas-end custom-offcanvas " tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+  <div class="offcanvas-header">
+    <i class="fa-solid fa-chevron-left"></i> <br>
+      <h5 class="offcanvas-title" id="offcanvasLabel">Dil Seçimi</h5>
+      <hr>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <h5>Dil</h5>
+    <div class="form-check">
+      <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label class="form-check-label" for="flexRadioDefault1">
+       Türkçe
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+      <label class="form-check-label" for="flexRadioDefault2">
+      English
+      </label>
+    </div>
+    <button class="btn-apply">UYGULA</button> 
+  </div>
+
+</div>
+       
+
+  <!-- Ortalama Header (Middle Header) -->
+<nav class="navbar navbar-expand-lg navbar-white bg-white px-0">
+    <div class="container d-flex justify-content-between align-items-center">
+        <!-- Beymen Logo -->
+        <a class="navbar-brand" href="https://www.beymen.com/tr">
+            <img class="" src="image/beymen-logo-dot-blue.svg" alt="Beymen Logo">
+        </a>
+
+        <div class="input-container">
+            <i class="fa fa-search"></i>
+            <input class="form-control mr-sm-2" id="form-kontrol" type="search" placeholder="Ürün,Marka Arayın"  >
+        </div>
+        <button type="button" id="form-close" class="o-header__form--close" > Vazgeç </button>
+        <!-- Hesabım, Favoriler ve Sepetim (Account, Favorites, Cart) -->
+
+       
+<ul class="navbar-nav ">
+    <li class="nav-item " >
+        <a class="nav-link" href="https://www.beymen.com/tr/customer/login?returnUrl=/tr/customer" style="color: black;"><i class="fa-regular fa-user"></i> <br> Hesabım</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="https://www.beymen.com/tr/favorilerim" style="color: black;"><i class="fa-regular fa-heart"></i> <br> Favoriler</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="https://www.beymen.com/tr/cart" ><i class="fa-duotone fa-solid fa-bag-shopping"></i><br> Sepetim</a>
+    </li>
+</ul>
+        
+
+
+    </div>
+</nav>
+
+
+<nav class="navbar navbar-expand-lg bg-white">
+   
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+
+          <li class="nav-item ">
+            <a class="nav-link active" id="kadin" aria-current="page" href="tr/kadin-10006">Kadın</a>
+          </li>
+
+        
+          <li class="nav-item">
+            <a class="nav-link active" id="erkek" aria-current="page" href="#">Erkek</a>
+            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="cocuk" href="#">Çocuk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="kozmetik" href="#">Kozmetik</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " id="ev" href="#">Ev & Mobilya</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="anne-bebek" aria-current="page" >Anne &Bebek <br>&Oyuncak</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="teknoloji" aria-current="page" href="#">Teknoloji</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="spor" aria-current="page" href="#">Spor &Outdoor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" id="yasam"  href="#">Yaşam</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"  id="outlet" aria-current="page" href="#">Outlet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="reborn" aria-current="page" href="#">Reborn</a>
+          </li>
+
+        </ul>
+      </div>
+
+  </nav>
+
+<!-- kadın section  -->
+  <section class="bg-white section-item" id="kadin-menu" style="display: none;">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 kadin-butonu-col">
+          <div class="kadin-butonu">
+            <ul class="list-unstyled">
+              <li><a href="https://www.beymen.com/tr/kadin-giyim-10020"  id="giyim">Giyim</a></li>
+              <li >
+                <a href="https://www.beymen.com/tr/kadin-ayakkabi-10018" id="ayakkabi" >Ayakkabı</a>
+                
+              </li>
+              <li><a href="https://www.beymen.com/tr/kadin-canta-10019">Çanta</a></li>
+              <li><a href="https://www.beymen.com/tr/kadin-aksesuar-10017">Aksesuar</a></li>
+              <li><a href="https://www.beymen.com/tr/yasam-stil-onerisi-kadinlara-ozel-bakim-onerileri-103542">Wellness & Kişisel Bakım</a></li>
+              <li><a href="https://www.beymen.com/tr/kadin-markalar-98567?menu=evet">Öne Çıkan Markalar</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li><a href="https://www.beymen.com/tr/kadin-giyim-t-shirt-10408" class="koyu">T-Shirt</a></li>
+            <li><a href="#" class="koyu">Takım</a></li>
+            <li><a href="#" class="koyu">Sweatshirt</a></li>
+            <li><a href="#" class="koyu">Jean Pantolon</a></li>
+            <li><a href="#" class="koyu">Elbise</a></li>
+            <li><a href="#">Jean Elbise</a></li>
+            <li><a href="#">Deri Elbise</a></li>
+            <li><a href="#">Beyaz Elbise</a></li>
+            <li><a href="#">Siyah Elbise</a></li>
+            <li><a href="#">Abiye Elbise</a></li>
+            <li><a href="#">Çiçekli Elbise</a></li>
+            <li><a href="#">Tulum</a></li>
+            <li><a href="#" class="koyu">Tüm Elbise</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li><a href="#" class="koyu">Gömlek & Bluz</a></li>
+            <li><a href="#">Abiye Bluz</a></li>
+            <li><a href="#">Deri Gömlek</a></li>
+            <li><a href="#">Jean Gömlek</a></li>
+            <li><a href="#">Bluz</a></li>
+            <li><a href="#">Body</a></li>
+            <li><a href="#">Büstiyer</a></li>
+            <li><a href="#">Tunik</a></li>
+            <li><a href="#" class="koyu">Tüm Gömlek & Bluz</a></li>
+            <li><a href="#" class="koyu">Spor Giyim</a></li>
+            <li><a href="#">Spor Elbise</a></li>
+            <li><a href="#">Spor Sweatshirt</a></li>
+            <li><a href="#">Spor Tayt</a></li>
+            <li><a href="#">Eşofman</a></li>
+            <li><a href="#">Spor Etek</a></li>
+            <li><a href="#">Spor T-shirt</a></li>
+            <li><a href="#">Sporcu Sütyeni</a></li>
+            <li><a href="#">Spor Şort</a></li>
+            <li><a href="#">Spor Termal Giyim & İçlik</a></li>
+            <li><a href="#">Spor Softshell & Polar</a></li>
+            <li><a href="#">Spor Yağmurluk & Rüzgarlık</a></li>
+            <li><a href="#" class="koyu">Tüm Spor Giyim</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li><a href="#" class="koyu">Pantolon</a></li>
+            <li><a href="#">Deri Pantolon</a></li>
+            <li><a href="#">Abiye Pantolon</a></li>
+            <li><a href="#">Triko Pantolon</a></li>
+            <li><a href="#">Tayt & Legging</a></li>
+            <li><a href="#">Spor Pantolon</a></li>
+            <li><a href="#">Tüm Pantolon</a></li>
+            <li><a href="#" class="koyu">İç Giyim & Pijama</a></li>
+            <li><a href="#">Atlet</a></li>
+            <li><a href="#">Gecelik</a></li>
+            <li><a href="#">İç Giyim Set</a></li>
+            <li><a href="#">Pijama Üst</a></li>
+            <li><a href="#">Pijama Alt</a></li>
+            <li><a href="#">Pijama Set</a></li>
+            <li><a href="#">Sütyen</a></li>
+            <li><a href="#">Külot</a></li>
+            <li><a href="#">Sabahlık</a></li>
+            <li><a href="#">Jartiyer</a></li>
+            <li><a href="#">Kombinezon</a></li>
+            <li><a href="#">Tüm İç Giyim & Pijama</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li><a href="#" class="koyu">Plaj Grubu</a></li>
+            <li><a href="#">Kimono</a></li>
+            <li><a href="#">Bikini Üst</a></li>
+            <li><a href="#">Bikini Alt</a></li>
+            <li><a href="#">Bikini Takımı</a></li>
+            <li><a href="#">Mayo</a></li>
+            <li><a href="#">Plaj Elbisesi</a></li>
+            <li><a href="#">Plaj Şortu</a></li>
+            <li><a href="#">Plaj Havlusu</a></li>
+            <li><a href="#">Pareo</a></li>
+            <li><a href="#" class="koyu">Tüm Plaj Grubu</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-2">
+          <a href="https://www.beymen.com/tr/kadin-giyim-10020" title="Giyim" class="background-img-link img-1">
+            <span>Tüm Giyim Ürünleri</span>
+            <span style="text-decoration: underline;">Keşfet</span>
+          </a>
+          <a href="https://www.beymen.com/tr/kadin-giyim-10020?yenigelenler=evet" title="Giyim" class="background-img-link img-2">
+            <span>Giyim Yeni Gelenler</span>
+            <span style="text-decoration: underline;">Keşfet</span>
+          </a>
+          <a href="https://www.beymen.com/tr/kadin-giyim-10020?indirimliurunler=evet" title="Giyim" class="background-img-link img-3">
+            <span>Giyim İndirimliler</span>
+            <span style="text-decoration: underline;">Keşfet</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="buttom" >
+        
+      <a href="https://www.beymen.com/tr/kadin-10006" title="Kadın" class="tüm">Tüm Kadın Ürünleri</a>
+       <a href="https://www.beymen.com/tr/kadin-10006?yenigelenler=evet" title="Kadın"  >Kadın Yeni Gelenler</a>
+    
+    </div>
+  </section>
+
+ <!-- ayakkabı  için -->
+
+ <section class="bg-white section-item"  style="display: none;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+      
+          <ul class="list-unstyled">
+            <li><a href="https://www.beymen.com/tr/kadin-giyim-10020" id="giyim">snikker</a></li>
+            <li >
+              <a href="https://www.beymen.com/tr/kadin-ayakkabi-10018"  >Terlik</a>
+              
+            </li>
+            <li><a href="https://www.beymen.com/tr/kadin-canta-10019">günlük ayakkabı</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-aksesuar-10017">gece ayakkabısı</a></li>
+            <li><a href="https://www.beymen.com/tr/yasam-stil-onerisi-kadinlara-ozel-bakim-onerileri-103542">sandalat</a></li>
+          </ul>
+        
+      </div>
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="https://www.beymen.com/tr/kadin-giyim-t-shirt-10408" class="koyu">laofar</a></li>
+          <li><a href="#" class="koyu">Plaj terliği</a></li>
+          <li><a href="#" class="koyu">babet</a></li>
+          <li><a href="#" class="koyu">terlik</a></li>
+          <li><a href="#" class="koyu">Espadril</a></li>
+          
+        </ul>
+      </div>
+
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#" class="koyu">Ayakkabilarda Öne Çıkan Markalar</a></li>
+          <li><a href="#">Abiye Bluz</a></li>
+          <li><a href="#">Deri Gömlek</a></li>
+        
+        </ul>
+      </div>
+
+
+    
+      <div class="col-md-2">
+        <a href="https://www.beymen.com/tr/kadin-giyim-10020" title="Giyim" class="background-img-link img-1">
+          <span>Tüm ayakkabi Ürünleri</span>
+          <span style="text-decoration: underline;">Keşfet</span>
+        </a>
+        <a href="https://www.beymen.com/tr/kadin-giyim-10020?yenigelenler=evet" title="Giyim" class="background-img-link img-2">
+          <span>Giyim Yeni Gelenler</span>
+          <span style="text-decoration: underline;">Keşfet</span>
+        </a>
+        <a href="https://www.beymen.com/tr/kadin-giyim-10020?indirimliurunler=evet" title="Giyim" class="background-img-link img-3">
+          <span>Giyim İndirimliler</span>
+          <span style="text-decoration: underline;">Keşfet</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="buttom" >
+      
+    <a href="https://www.beymen.com/tr/kadin-10006" title="Kadın" class="tüm">Tüm Kadın Ürünleri</a>
+     <a href="https://www.beymen.com/tr/kadin-10006?yenigelenler=evet" title="Kadın"  >Kadın Yeni Gelenler</a>
+  
+  </div>
+</section>
+
+<!-- Erkek Lİnki Hazır -->
+
+
+<section class="bg-white section-item" id="erkek-menu" style="display: none;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 kadin-butonu-col">
+        <div class="kadin-butonu">
+          <ul class="list-unstyled">
+            <li><a href="https://www.beymen.com/tr/kadin-giyim-10020">Giyim</a></li>
+            <li class="dropdown">
+              <a href="https://www.beymen.com/tr/kadin-ayakkabi-10018" class="dropdown-toggle">Ayakkabı</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-canta-10019">Çanta</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-aksesuar-10017">Aksesuar</a></li>
+            <li><a href="https://www.beymen.com/tr/yasam-stil-onerisi-kadinlara-ozel-bakim-onerileri-103542">Wellness & Kişisel Bakım</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-markalar-98567?menu=evet">Öne Çıkan Markalar</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#" class="koyu">Takım</a></li>
+          <li><a href="#" class="koyu">T-Shirt</a></li>
+          <li><a href="#" class="koyu">Polo Yaka T-Shirt</a></li>
+          <li><a href="#" class="koyu">Jean Pantolon</a></li>
+          <li><a href="#" class="koyu">Pantolon</a></li>
+          <li><a href="#" class="koyu">takım elbise</a></li>
+          <li><a href="#" class="koyu">bermuda &Şort</a></li>
+          
+          
+        </ul>
+      </div>
+
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#" class="koyu">Plaj Grubu</a></li>
+          <li><a href="#">Mayo & Deniz Şortu</a></li>
+          <li><a href="#" class="koyu">Tüm Plaj Grubu</a></li>
+        
+        </ul>
+      </div>
+
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#" class="koyu">Gömlek</a></li>
+          <li><a href="#">Jean Gömleği</a></li>
+          <li><a href="#">Smokin Gömleği</a></li>
+          <li><a href="#" class="koyu">Tüm Gömlek</a></li>
+         
+          <li><a href="#" class="koyu">Ceket</a></li>
+          
+          <li><a href="#">Klasik Ceket</a></li>
+          <li><a href="#">Blazer </a></li>
+          <li><a href="#">Spor Ceket</a></li>
+          <li><a href="#">Klasik Yelek</a></li>
+          <li><a href="#" class="koyu">Tüm Ceket</a></li>
+
+        </ul>
+      </div>
+
+        <div class="col-md-2  ">
+          <a href="https://www.beymen.com/tr/kadin-giyim-10020" title="Giyim" class="background-img-link img-1">
+            <span>Tüm Giyim Ürünleri</span>
+            <span style="text-decoration: underline;">Keşfet</span>
+          </a>
+          <a href="https://www.beymen.com/tr/kadin-giyim-10020?yenigelenler=evet" title="Giyim" class="background-img-link img-2">
+            <span>Giyim Yeni Gelenler</span>
+            <span style="text-decoration: underline;">Keşfet</span>
+          </a>
+          <a href="https://www.beymen.com/tr/kadin-giyim-10020?indirimliurunler=evet" title="Giyim" class="background-img-link img-3">
+            <span>Giyim İndirimliler</span>
+            <span style="text-decoration: underline;">Keşfet</span>
+          </a>
+      </div>
+      
+    </div>
+  </div>
+  <div class="buttom" >
+
+    <a href="https://www.beymen.com/tr/kadin-10006" title="erkek" class="tüm">Tüm Erkek  Ürünleri</a>
+     <a href="https://www.beymen.com/tr/kadin-10006?yenigelenler=evet" title="erkek"  >Erkek Yeni Gelenler</a>
+    
+    </div>
+       
+</section>
+
+
+<!-- cocuk menu -->
+
+
+<section class="bg-white section-item" id="cocuk-menu" style="display: none;">
+  <div class="container">
+    <div class="row">
+      <!-- 1. sütun -->
+      <div class="col-md-2 kadin-butonu-col">
+        <div class="kadin-butonu">
+          <ul class="list-unstyled">
+            <li><a href="https://www.beymen.com/tr/kadin-giyim-10020">Kız Bebek</a></li>
+            <li >
+              <a href="https://www.beymen.com/tr/kadin-ayakkabi-10018" >Erkek Bebek</a>
+              
+            </li>
+            <li><a href="https://www.beymen.com/tr/kadin-canta-10019">Kız Çocuk</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-aksesuar-10017">Erkek Çocuk</a></li>
+            <li><a href="https://www.beymen.com/tr/yasam-stil-onerisi-kadinlara-ozel-bakim-onerileri-103542">Ayakkabı & Çanta</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-markalar-98567?menu=evet">Öne Çıkan Markalar</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#" class="koyu">Tulum & Body</a></li>
+          <li><a href="#">Body</a></li>
+          <li><a href="#">Tulum</a></li>
+          <li><a href="#" class="koyu">Tüm Tulum & Body</a></li>
+          <li><a href="#" class="koyu">Mayo</a></li>
+          <li><a href="#" class="koyu">Elbise</a></li>
+          <li><a href="#" class="koyu">Eşofman</a></li>
+          <li><a href="#" class="koyu">Dış Giyim</a></li>
+          <li><a href="#" class="koyu">Set Ürünler</a></li>
+          <li><a href="#">Hastane Çıkışı</a></li>
+        </ul>
+      </div>
+  
+      <!-- 2. sütun -->
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#" class="koyu">Kazak & Hırka</a></li>
+          <li><a href="#">Hırka</a></li>
+          <li><a href="#" class="koyu">Tüm Kazak & Hırka</a></li>
+        </ul>
+      </div>
+  
+      <!-- 3. sütun -->
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#">T-shirt & Sweatshirt</a></li>
+          <li><a href="#">Pantolon & Şort</a></li>
+          <li><a href="#">Tayt</a></li>
+          <li><a href="#">Tüm Pantolon & Şort</a></li>
+        </ul>
+      </div>
+  
+      <!-- 4. sütun -->
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#">Gömlek & Bluz</a></li>
+          <li><a href="#">Bluz</a></li>
+          <li><a href="#">Tüm Gömlek & Bluz</a></li>
+          <li><a href="#">Aksesuar</a></li>
+          <li><a href="#">Müslin Bezi</a></li>
+          <li><a href="#">Şapka</a></li>
+          <li><a href="#">Tüm Aksesuar</a></li>
+        </ul>
+      </div>
+  
+      <!-- 5. sütun -->
+      <div class="col-md-2">
+        <a href="https://www.beymen.com/tr/kids-kiz-bebek-60185" title="Giyim" class="background-img-link img-1">
+          <span>Tüm Kız Bebek Ürünleri</span>
+          <span style="text-decoration: underline;">Keşfet</span>
+        </a>
+      
+      </div>
+    </div>
+  </div>
+  <div class="buttom">
+    <a href="https://www.beymen.com/tr/kadin-10006" title="Kadın" class="tüm">Tüm Kadın Ürünleri</a>
+    <a href="https://www.beymen.com/tr/kadin-10006?yenigelenler=evet" title="Kadın">Kadın Yeni Gelenler</a>
+  </div>
+</section>
+
+
+<!-- kozmetik -->
+
+<section class="bg-white section-item" id="kozmetik-menu" style="display: none;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 kadin-butonu-col">
+        <div class="kadin-butonu">
+          <ul class="list-unstyled">
+            <li><a href="https://www.beymen.com/tr/kadin-giyim-10020">Makyaj</a></li>
+            <li >
+              <a href="https://www.beymen.com/tr/kadin-ayakkabi-10018" >Cilt Bakımı</a>
+              
+            </li>
+            <li><a href="https://www.beymen.com/tr/kadin-canta-10019">Parfüm</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-aksesuar-10017">Saç Bakımı</a></li>
+            <li><a href="https://www.beymen.com/tr/yasam-stil-onerisi-kadinlara-ozel-bakim-onerileri-103542">Kişisel Bakımı</a></li>
+            <li><a href="https://www.beymen.com/tr/yasam-stil-onerisi-kadinlara-ozel-bakim-onerileri-103542">Erkek Bakımı</a></li>
+            <li><a href="https://www.beymen.com/tr/yasam-stil-onerisi-kadinlara-ozel-bakim-onerileri-103542">Kişisel Bakımı</a></li>
+            <li><a href="https://www.beymen.com/tr/yasam-stil-onerisi-kadinlara-ozel-bakim-onerileri-103542">Güneş Ürünleri</a></li>
+
+            <li><a href="https://www.beymen.com/tr/kadin-markalar-98567?menu=evet">Öne Çıkan Markalar</a></li>
+            
+            <li><a href="https://www.beymen.com/tr/yasam-stil-onerisi-kadinlara-ozel-bakim-onerileri-103542">Beymen Beauty Mini</a></li>
+            <li><a href="https://www.beymen.com/tr/yasam-stil-onerisi-kadinlara-ozel-bakim-onerileri-103542">Beymen Exclusive</a></li>
+            <li><a href="https://www.beymen.com/tr/yasam-stil-onerisi-kadinlara-ozel-bakim-onerileri-103542">Dermokozmetik</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#">Yüz Makyajı</a></li>
+          <li><a href="#">Allık</a></li>
+          <li><a href="#">Aydınlatıcı / Highlighter</a></li>
+          <li><a href="#">BB/CC Krem</a></li>
+          <li><a href="#">Fondöten</a></li>
+          <li><a href="#">Kapatıcı</a></li>
+          <li><a href="#">Makyaj Bazı / Sabitleyiciler</a></li>
+          <li><a href="#">Pudra</a></li>
+          <li><a href="#" class="koyu">Tüm Yüz Makyajı</a></li>
+        </ul>
+      </div>
+
+      <!-- Sütun 2 -->
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#">Dudak Makyajı</a></li>
+          <li><a href="#">Dudak Kalemi</a></li>
+          <li><a href="#">Dudak Parlatıcısı</a></li>
+          <li><a href="#">Dudak Yağı</a></li>
+          <li><a href="#">Ruj</a></li>
+          <li><a href="#" class="koyu">Tüm Dudak Makyajı</a></li>
+        </ul>
+      </div>
+
+      <!-- Sütun 3 -->
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#">Göz Makyajı</a></li>
+          <li><a href="#">Eyeliner</a></li>
+          <li><a href="#">Göz Farı</a></li>
+          <li><a href="#">Göz Kalemi</a></li>
+          <li><a href="#">Kaş Kalemi</a></li>
+          <li><a href="#">Kaş Maskarası</a></li>
+          <li><a href="#">Maskara / Rimel</a></li>
+          <li><a href="#" class="koyu">Tüm Göz Makyajı</a></li>
+        </ul>
+      </div>
+
+      <!-- Sütun 4 -->
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#">Tırnak</a></li>
+          <li><a href="#">Oje</a></li>
+          <li><a href="#">Törpü / Manikür Aletleri</a></li>
+          <li><a href="#" class="koyu">Tüm Tırnak</a></li><br>
+          <li><a href="#">Makyaj Aksesuarı</a></li>
+          <li><a href="#">Geçici Dövme</a></li>
+          <li><a href="#">Diğer Makyaj Aksesuarları</a></li>
+          <li><a href="#">Makyaj Çantaları</a></li>
+          <li><a href="#">Makyaj Fırça / Sünger</a></li>
+          <li><a href="#" class="koyu">Tüm Makyaj Aksesuarı</a></li>
+        </ul>
+      </div>
+
+
+      <!-- Sütun 6 -->
+      <div class="col-md-2">
+        <a href="https://www.beymen.com/tr/makyaj-urunleri" title="Makyaj Ürünleri" class="background-img-link img-1">
+          <span>Tüm Makyaj Ürünleri</span>
+          <span style="text-decoration: underline;">Keşfet</span>
+        </a>
+        <a href="https://www.beymen.com/tr/makyaj-urunleri?yenigelenler=evet" title="Makyaj Ürünleri" class="background-img-link img-2">
+          <span>Makyaj Yeni Gelenler</span>
+          <span style="text-decoration: underline;">Keşfet</span>
+        </a>
+     
+      </div>
+    </div>
+  </div>
+  <div class="buttom">
+    <a href="https://www.beymen.com/tr/makyaj-urunleri" title="Makyaj Ürünleri" class="tüm">Tüm Makyaj Ürünleri</a>
+    <a href="https://www.beymen.com/tr/makyaj-urunleri?yenigelenler=evet" title="Makyaj Ürünleri">Makyaj Yeni Gelenler</a>
+  </div>
+</section>
+
+
+<!--  ev mobilya  -->
+<section class="bg-white section-item" id="ev-menu" style="display: none;">
+  <div class="container">
+    <div class="row">
+     
+      <div class="col-md-2 kadin-butonu-col">
+        <div class="kadin-butonu">
+          <ul class="list-unstyled">
+            <li><a href="https://www.beymen.com/tr/kadin-giyim-10020">Sofra &Mutfak</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-ayakkabi-10018">Ev Dekorasyon</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-canta-10019">Mobilya</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-aksesuar-10017">Banyo </a></li>
+            <li><a href="https://www.beymen.com/tr/yasam-stil-onerisi-kadinlara-ozel-bakim-onerileri-103542">Elektik & Aydınlatma</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-aksesuar-10017">Ev Tekstili </a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-aksesuar-10017">Bahçe</a></li>
+
+            <li><a href="https://www.beymen.com/tr/kadin-markalar-98567?menu=evet">Öne Çıkan Markalar</a></li>
+          </ul>
+        </div>
+      </div>
+
+      
+      <!-- Yeni 3 sütun -->
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#">Sofra Grubu</a></li>
+          <li><a href="#">Kase & Kase Seti</a></li>
+          <li><a href="#">Bardak & Bardak Seti</a></li>
+          <li><a href="#">Çatal & Bıçak & Kaşık Seti</a></li>
+          <li><a href="#">Kupa & Kupa Takımı</a></li>
+          <li><a href="#">Sürahi & Karaf</a></li>
+          <li><a href="#">Tabak & Tabak Seti</a></li>
+          <li><a href="#">Yemek Takımı</a></li>
+          <li><a href="#">Çay Bardağı</a></li>
+          <li><a href="#">Çay ve Kahve Demleme</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#">Pişirme</a></li>
+          <li><a href="#">Tava & Tava Seti</a></li>
+          <li><a href="#">Tencere & Tencere Seti</a></li>
+          <li><a href="#">Fırın & Kek Kalıbı</a></li>
+          <li><a href="#">Yemek Hazırlık</a></li>
+          <li><a href="#">Bıçaklar</a></li>
+          <li><a href="#">Yağlık ve Sirkelik</a></li>
+          <li><a href="#">Baharatlık</a></li>
+          <li><a href="#">Diğer Hazırlık Gereçleri</a></li>
+          <li><a href="#">Kavanoz</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#" class="koyu">Pastacılık Ekipmanları</a></li>
+          <li><a href="#">çırpıcı</a></li>
+          <li><a href="#">spatula</a></li>
+          <li><a href="#">Rende</a></li>
+          <li><a href="#">Saklama Kapları</a></li>
+          <li><a href="#" class="koyu">Servis ve Sunum Ürünleri</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2">
+        <a href="https://www.beymen.com/tr/sofra-mutfak-96073" title="Giyim" class="background-img-link img-1">
+          <span>Tüm Sofra &Mutfak Ürünleri</span>
+          <span style="text-decoration: underline;">Keşfet</span>
+        </a>
+        <a href="https://www.beymen.com/tr/kids-kiz-bebek-60185" title="Yeni Gelenler" class="background-img-link img-2">
+          <span>Tüm Sofra &Mutfak Yeni Gelenler</span>
+          <span style="text-decoration: underline;">Keşfet</span>
+        </a>
+       
+      </div>
+    </div>
+  </div>
+  <div class="buttom">
+    <a href="https://www.beymen.com/tr/kadin-10006" title="Kadın" class="tüm">Tüm Kadın Ürünleri</a>
+    <a href="https://www.beymen.com/tr/kadin-10006?yenigelenler=evet" title="Kadın">Kadın Yeni Gelenler</a>
+  </div>
+</section>
+
+
+
+
+<!-- Anne bebek -->
+<section class="bg-white section-item" id="anne-bebek-menu" style="display: none;">
+  <div class="container">
+    <div class="row">
+     
+      <div class="col-md-2 kadin-butonu-col">
+        <div class="kadin-butonu">
+          <ul class="list-unstyled">
+            <li><a href="https://www.beymen.com/tr/kadin-giyim-10020">Bebek Arabası&Oto Koltuğu</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-ayakkabi-10018">Oyuncak</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-canta-10019">Anne ve Bebek Bakım</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-aksesuar-10017">Bebek & Çocuk Odası </a></li>
+            <li><a href="https://www.beymen.com/tr/yasam-stil-onerisi-kadinlara-ozel-bakim-onerileri-103542">Port Bebe & Kanguru</a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-aksesuar-10017">Park Yatak & Oyun Parkı </a></li>
+            <li><a href="https://www.beymen.com/tr/kadin-aksesuar-10017">Güvenlik</a></li>
+
+            <li><a href="https://www.beymen.com/tr/kadin-markalar-98567?menu=evet">Yürüteç</a></li>
+          </ul>
+        </div>
+      </div>
+
+      
+      <!-- Yeni 3 sütun -->
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#">Sofra Grubu</a></li>
+          <li><a href="#">Kase & Kase Seti</a></li>
+          <li><a href="#">Bardak & Bardak Seti</a></li>
+          <li><a href="#">Çatal & Bıçak & Kaşık Seti</a></li>
+          <li><a href="#">Kupa & Kupa Takımı</a></li>
+          <li><a href="#">Sürahi & Karaf</a></li>
+          <li><a href="#">Tabak & Tabak Seti</a></li>
+          <li><a href="#">Yemek Takımı</a></li>
+          <li><a href="#">Çay Bardağı</a></li>
+          <li><a href="#">Çay ve Kahve Demleme</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#" class="koyu">Bebek Arabası & Puset</a></li>
+          <li><a href="#">Travel Sistem Bebek Arabası</a></li>
+          <li><a href="#">Bebek Arabası</a></li>
+          <li><a href="#">Ana Kucağı</a></li>
+          <li><a href="#">Baston Puset</a></li>
+          <li><a href="#">Bebek Arabası Aksesuar</a></li>
+          <li><a href="#">İkiz Bebek Arabası</a></li>
+          <li><a href="#" class="koyu">Tüm Bebek Arabası & Puset</a></li>
+         
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#" class="koyu">Bebek Oto Koltuğu</a></li>
+          <li><a href="#" class="koyu">Bebek Oto Koltuğu Aksesuarları</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 ">
+        <a href="https://www.beymen.com/tr/bebek-arabasi-oto-koltugu-95727" title="Giyim" class="background-img-link img-1">
+          <span>Tüm Bebek Arabası  & Oto Kontrol Ürünleri</span>
+          <span style="text-decoration: underline;">Keşfet</span>
+        </a>
+     
+      </div>
+    </div>
+  </div>
+  <div class="buttom">
+    <a href="https://www.beymen.com/tr/kadin-10006" title="Kadın" class="tüm">Tüm Anne & Bebek & Oyuncak Ürünleri</a>
+  </div>
+</section>
+
+
+<section class="bg-white section-item" id="reborn-menu" style="display: none;">
+  <div class="container">
+    <div class="row">
+      <!-- 1. sütun -->
+      <div class="col-md-2 kadin-butonu-col">
+        <div class="kadin-butonu">
+          <ul class="list-unstyled">
+            <li><a href="">Reborn Çanta</a></li>
+            <li >
+              <a href="https://www.beymen.com/tr/kadin-ayakkabi-10018" >Reborn Ayakkabı</a>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#" class="koyu">Reborn El Portföyü</a></li>
+          <li><a href="#" class="koyu">Reborn Omuz Çantası</a></li>
+          <li><a href="#" class="koyu">Reborn Askılı/Çapraz Çanta</a></li>
+        </ul>
+      </div>
+      <!-- 5. sütun -->
+      <div class="col-md-2">
+        <a href="https://www.beymen.com/tr/kids-kiz-bebek-60185" title="Giyim" class="background-img-link img-1">
+          <span>Tüm Reborn  Ürünleri</span>
+          <span style="text-decoration: underline;">Keşfet</span>
+        </a>
+      
+      </div>
+    </div>
+  </div>
+  <div class="buttom">
+    <a href="https://www.beymen.com/tr/kadin-10006" title="Kadın" class="tüm">Tüm Kadın Ürünleri</a>
+    <a href="https://www.beymen.com/tr/kadin-10006?yenigelenler=evet" title="Kadın">Kadın Yeni Gelenler</a>
+  </div>
+</section>
+
+
+
+ <div class="banner">
+<a href="https://www.beymen.com/tr/sale-kampanyalar-buyuk-beymen-indirimi-100080"> <img src="image/BANNER_TEMPLATE_INDIRIM_SERIT_100724BEYMEN_12G_2024071614533891859.jpg" alt=""></a>
+ 
+ </div>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide md:px-0" >
+
+      
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/giris.gif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/4.gif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/6d.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/6.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/7.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/8.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/8.gif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/9.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark " aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    <!-- Yan Yana Fotoğraflar -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <img src="image/kadın.jpg" class="img-fluid" alt="Kadın Fotoğrafı">  <br><br> 
+                <h4 class="overlay-text">KIYI ŞERİDİ</h4>
+                <p style="color: gray;">KADIN</p>
+                <a href="https://www.beymen.com/tr/kadin-10006" style="text-decoration: underline; color: black;">Keşfet</a>
+  
+
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="image/erkek.jpg" class="img-fluid" alt="Erkek Fotoğrafı"> <br><br> 
+                <h4 class="overlay-text">KIYI ŞERİDİ</h4>
+                <p style="color: gray;">ERKEK</p>
+                <a    href="https://www.beymen.com/tr/erkek-10004" style="text-decoration: underline; color: black;">Keşfet</a>
+
+
+            </div>
+        </div>
+    </div>
+
+<br><br>
+
+       <div class="image-grid">
+        <div class="image-item">
+            <img src="image/renk.jpg" alt="Resim 1">
+            <h4 >RENK COŞKUSU</h4>
+            <p style="color: gray;">SOFRA & MUTFAK</p>
+            <a    href="https://www.beymen.com/tr/sofra-mutfak-96073" style="text-decoration: underline; color: black;">Keşfet</a>
+
+
+        </div>
+        <div class="image-item">
+            <img src="image/tamam.jpg" alt="Resim 2">
+            <h4>TAMAMLAYICI GÜÇ</h4>
+            <p style="color: gray;">ÇANTA</p>
+
+            <a    href="https://www.beymen.com/tr/kadin-canta-10019" style="text-decoration: underline; color: black;">Keşfet</a>
+
+        </div>
+        <div class="image-item">
+            <img src="image/en.jpg" alt="Resim 3">
+            <h4>EN İYİLERİN BULUŞMA NOKTASI</h4>
+<P style="color: gray;">ELEKTRİKLİ EV ALETLERİ</P>
+            <a    href="https://www.beymen.com/tr/ev-mobilya-elektrik--aydinlatma-96071" style="text-decoration: underline; color: black;">Keşfet</a>
+
+        </div>
+    </div>
+    
+
+
+    
+<br><br>
+
+<div class="image-grid">
+ <div class="image-item">
+     <img src="image/takı.jpg" alt="Resim 1">
+     <h4 >GOLD DOKUNUŞ</h4>
+     <p style="color: gray;">TAKI & MÜCEVHER</p>
+     <a    href="https://www.beymen.com/tr/kadin-aksesuar-10017" style="text-decoration: underline; color: black;">Keşfet</a>
+
+
+ </div>
+ <div class="image-item">
+     <img src="image/cilt.jpg" alt="Resim 2">
+     <h4>YENİLEYİCİ REHBER</h4>
+     <p style="color: gray;">CİLT BAKIMI</p>
+
+     <a  href="https://www.beymen.com/tr/kozmetik-yuz-bakimi-30901" style="text-decoration: underline; color: black;">Keşfet</a>
+
+ </div>
+ <div class="image-item">
+     <img src="image/kids.jpg" alt="Resim 3">
+     <h4>YAZA ÖZEL SEÇİMLER</h4>
+<P style="color: gray;">KIDS</P>
+     <a  href="https://www.beymen.com/tr/kids-31210" style="text-decoration: underline; color: black;">Keşfet</a>
+
+ </div>
+</div>
+
+ 
+<br><br>
+
+        <div class="image-grid">
+         <div class="image-item">
+             <img src="image/gunes.jpg" alt="Resim 1">
+             <h4 >GÜNEŞİN ALTINDA</h4>
+             <p style="color: gray;">BEYMEN CLUB</p>
+             <a    href="https:www.beymen.com" style="text-decoration: underline; color: black;">Keşfet</a>
+        
+        
+         </div>
+         <div class="image-item">
+             <img src="image/sanal.jpg" alt="Resim 2">
+             <h4>İNOVATİF GÜZELLİK</h4>
+             <p style="color: gray;">SANAL MAKYAJ</p>
+        
+             <a href="https://www.beymen.com/tr/kozmetik-makyaj-30898" style="text-decoration: underline; color: black;">Keşfet</a>
+        
+         </div>
+         <div class="image-item">
+             <img src="image/zarif.gif" alt="Resim 3">
+             <h4>ZARİF DURUŞ</h4>
+        <P style="color: gray;">ACADEMIA</P>
+             <a href="https:www.beymen.com" style="text-decoration: underline; color: black;">Keşfet</a>
+        
+         </div>
+        </div>
+        <br> 
+
+       
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <h4><a href="#" class="new-link" id="yenigelen-link">YENİ GELENLER</a></h4>
+        </div>
+        <div class="col-md-3">
+          <h4><a href="#" class="new-link" id="beymen-link">BEYMEN EDİT</a></h4>
+      </div>
+        <div class="col-md-3">
+            <h4><a href="#" class="new-link" id="cok-satanlar-link">ÇOK SATANLAR</a></h4>
+        </div>
+        <div class="col-md-3">
+            <h4><a href="#" class="new-link" id="beymen-exclusive-link">BEYMEN EXCLUSIVE</a></h4>
+        </div>
+    </div>
+</div>
+
+<div id="yenigelen-section" class="yenigelen">
+    <div class="card" style="width: 18rem;">
+        <img src="image/sise.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ŞİŞELENMİŞ TRIUMPH <br>İksiri</h5>
+          <p class="card-text">Patron</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="image/yazın.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">YAZIN TEMELLER</h5>
+          <p class="card-text">Güneşli hayat</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="image/lalik.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LALIK</h5>
+          <p class="card-text">Dekorasyon</p>
+        </div>
+    </div>
+</div>
+
+<div id="beymen-edit"  class="beymen-ilk" style="display: none;">
+  <div class="card" style="width: 18rem;">
+      <img src="image/deniz.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">TOGETHER BY THE SEA </h5>
+        <p class="card-text">Tanem Silvar &Edhem Dirvana</p>
+      </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+      <img src="image/sunkis.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">SUNKISSED</h5>
+        <p class="card-text">Sıcak Yaz</p>
+      </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+      <img src="image/sanat.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">SANAT SAHNESİ</h5>
+        <p class="card-text">Beymen Art Room</p>
+      </div>
+  </div>
+</div>
+
+
+
+
+<div id="cok-satanlar-section" class="cok-satanlar" style="display:none;">
+    <div class="card" style="width: 18rem;">
+        <img src="image/iphone.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">İPHONE</h5>
+          <p class="card-text">Elma</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="image/seftali.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ŞEFTALİ 2</h5>
+          <p class="card-text">önde gelen</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="image/bebek.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BEBEK TAŞIYICILARI</h5>
+          <p class="card-text">Bebekbjörn</p>
+        </div>
+    </div>
+</div>
+
+<div id="beymen-exclusive-section" class="beymen-exclusive" style="display:none;">
+    <div class="card" style="width: 18rem;">
+        <img src="image/parfum.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PARFUMS DE MARLY</h5>
+          <p class="card-text">Beymen Beauty</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="image/bottega.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BOTTEGA VENETA</h5>
+          <p class="card-text">Summer 2024</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="image/all.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ALLSAINTS</h5>
+          <p class="card-text">2024 Summer</p>
+        </div>
+    </div>
+</div>
+
+
+<h4 class="featured-categories">Öne Çıkan Kategoriler</h4> <br> <br>
+<div class="image-row">
+    <div class="image-item">
+        <img src="image/giyim.jpg" alt="Resim 1">
+        <div class="overlay">
+            <a href="https://www.beymen.com/tr/giyim-57286" class="overlay-link"><span>GİYİM</span> ➔</a>
+        </div>
+    </div>
+    <div class="image-item">
+        <img src="image/ayakkabi.jpg" alt="Resim 2">
+        <div class="overlay">
+            <a href="https://www.beymen.com/tr/ayakkabi-57285" class="overlay-link"><span>AYAKKABI</span> ➔</a>
+        </div>
+    </div>
+    <div class="image-item">
+        <img src="image/canta.jpg" alt="Resim 3">
+        <div class="overlay">
+            <a href="https://www.beymen.com/tr/canta-57301" class="overlay-link"><span>ÇANTA</span> ➔</a>
+        </div>
+    </div>
+    <div class="image-item">
+        <img src="image/aksesuar.jpg" alt="Resim 4">
+        <div class="overlay">
+            <a href="https://www.beymen.com/tr/unisex-aksesuar-57315" class="overlay-link"><span>AKSESUAR</span> ➔</a>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <a href="https://www.beymen.com/en/women-clothing-dresses-evening-dress-10339" class="hidden-link" id="hidden-link">Gece elbisesi</a> -->
+
+<div class="home-container" class="hidden-link" id="hidden-link" style="display: none;">
+  <div class="row">
+      <div class="col-md-2">
+          <ul class="list-unstyled">
+              <li><a href="https://www.beymen.com/tr/kadin-giyim-elbise-abiye-elbise-10339">Abiye Elbise</a></li>
+              <li><a href="https://www.beymen.com/tr/brand-academia-1887">Academia</a></li>
+              <li><a href="https://www.beymen.com/tr/kadin-giyim-spor-giyim">Activewear</a></li>
+              <li><a href="https://www.beymen.com/tr/kadin-ayakkabi-sneaker/adidas">Adidas Ayakkabı</a></li>
+              <li><a href="https://www.beymen.com/tr/brand-adidas-1692">Adidas Çorap</a></li>
+              <li><a href="https://www.beymen.com/tr/brand-alexander-mcqueen-1753">Alexander McQueen</a></li>
+              <li><a href="https://www.beymen.com/tr/brand-allsaints-2115">AllSaints</a></li>
+              <li><a href="https://www.beymen.com/tr/kadin-t-shirt-16032">Anneler Günü</a></li>
+              <li><a href="https://www.beymen.com/tr/aksesuar-atki-bere-eldiven">Atkı/Bere/Eldiven</a></li>
+              <li><a href="https://www.beymen.com/kadin-giyim-atlet-2019155">Atlet</a></li>
+
+              <li><a href="https://www.beymen.com/tr/yasam-hediye-babalar-gunu-55832">Babalar Günü</a></li>
+              <li><a href="https://www.beymen.com/tr/kadin-ayakkabi-sneaker/balenciaga">Balenciaga Ayakkabı</a></li>
+              <li><a href="https://www.beymen.com/tr/brand-balmain-1903">Balmain</a></li>
+              <li><a href="https://www.beymen.com/tr/aksesuar-canta">Bavul</a></li>
+              <li><a href="https://www.beymen.com/tr/kadin-beachwear">Beachwear</a></li>
+              <li><a href="https://www.beymen.com/tr/giyim-bermuda-58781">Bermuda</a></li>
+              <li><a href="https://www.beymen.com/tr/beymen-business-urunleri">Beymen Business</a></li>
+              <li><a href="https://www.beymen.com/tr/kadin-mayo-bikini">Bikini</a></li>
+              <li><a href="https://www.beymen.com/tr/brand-birkenstock-1918">Birkenstock Terlik</a></li>
+              <li><a href="https://www.beymen.com/tr/kadin-blazer-ceket">Blazer</a></li>
+              <li><a href="https://www.beymen.com/tr/kadin-giyim-blazer">Blazer Ceket Kombinleri</a></li>
+              <li><a href="https://www.beymen.com/tr/kadin-giyim-gomlek--bluz-10040">Bluz</a></li>
+              <li><a href="https://www.beymen.com/kadin-ayakkabi-bot-2019362">Bot</a></li>
+              <li><a href="https://www.beymen.com/erkek-mont-boss-2019825">Boss Erkek Mont</a></li>
+              <li><a href="https://www.beymen.com/erkek-ic-giyim-boxer-2019866">Boxer</a></li>
+              <li><a href="https://www.beymen.com/kadin-ayakkabi-sneaker-calvin-klein-2019465">Calvin Klein Ayakkabı</a></li>
+              <li><a href="https://www.beymen.com/kadin-canta-calvin-klein-2019481">Calvin Klein Çanta</a></li>
+              <li><a href="https://www.beymen.com/brand-canada-goose-2034">Canada Goose</a></li>
+              
+          </ul>
+      </div>
+      <div class="col-md-2">
+          <ul class="list-unstyled">
+              <li><a href="#">Ceket</a></li>
+              <li><a href="#">Champion</a></li>
+              <li><a href="#">Champion Sweatshirt</a></li>
+              <li><a href="#">Cilt Bakımı</a></li>
+              <li><a href="#">Converse</a></li>
+              <li><a href="#">Cüzdan</a></li>
+              <li><a href="#">Çizme</a></li>
+              <li><a href="#">Çorap</a></li>
+              <li><a href="#">Deri Ceket</a></li>
+              <li><a href="#">Deri Mont</a></li>
+              <li><a href="#">Dış Giyim</a></li>
+              <li><a href="#">Doğru Fondöten Seçimi</a></li>
+              <li><a href="#">Dolce Gabbana</a></li>
+              <li><a href="#">Driver</a></li>
+              <li><a href="#">Dünyaca Ünlü Çantalar</a></li>
+              <li><a href="#">Elbise</a></li>
+              <li><a href="#">El Portföyü</a></li>
+              <li><a href="#">Emporio Armani</a></li>
+              <li><a href="#">En İyi 12 Cilt Serumu</a></li>
+              <li><a href="#">Erkek Mayo</a></li>
+              <li><a href="#">Erkek Güneş Gözlüğü</a></li>
+              <li><a href="#">Erkekler için Sevgililer Günü</a></li>
+              <li><a href="#">Espadril</a></li>
+              <li><a href="#">Eşofman</a></li>
+              <li><a href="#">Etek</a></li>
+              <li><a href="#">Ev & Dekorasyon</a></li>
+              <li><a href="#">Evlilik Yıl Dönümü Hediyeleri</a></li>
+              <li><a href="#">Evrak Çantası</a></li>
+          </ul>
+      </div>
+      <div class="col-md-2">
+          <ul class="list-unstyled">
+              <li><a href="#">Fjallraven</a></li>
+              <li><a href="#">Golden Goose</a></li>
+              <li><a href="#">Gömlek</a></li>
+              <li><a href="#">Gucci</a></li>
+              <li><a href="#">Gucci Ayakkabı</a></li>
+              <li><a href="#">Güneş Gözlüğü</a></li>
+              <li><a href="#">Güneş Kreminin Faydaları</a></li>
+              <li><a href="#">Hermes</a></li>
+              <li><a href="#">Herschel Sırt Çantası</a></li>
+              <li><a href="#">Hırka</a></li>
+              <li><a href="#">Jean Grubu</a></li>
+              <li><a href="#">Jean Pantolon</a></li>
+              <li><a href="#">Kaban</a></li>
+              <li><a href="#">Kadın Mayo</a></li>
+              <li><a href="#">Kadın Michael Kors Ayakkabı</a></li>
+              <li><a href="#">Kadınlar için Sevgililer Günü</a></li>
+              <li><a href="#">Kanken Çanta</a></li>
+              <li><a href="#">Kazak</a></li>
+              <li><a href="#">Kemer</a></li>
+              <li><a href="#">Kol Saati</a></li>
+              <li><a href="#">Laptop Çantası</a></li>
+              <li><a href="#">Les Benjamins</a></li>
+              <li><a href="#">Legging</a></li>
+              <li><a href="#">Loafer</a></li>
+              <li><a href="#">Maison Francis Kurkdjian Parfüm</a></li>
+              <li><a href="#">Manc Çanta</a></li>
+              <li><a href="#">Marc Jacobs Çanta</a></li>
+              <li><a href="#">Mezuniyet Ayakkabıları</a></li>
+          </ul>
+      </div>
+      <div class="col-md-2">
+          <ul class="list-unstyled">
+              <li><a href="#">Mezuniyet Çantaları</a></li>
+              <li><a href="#">Mezuniyet ve Balo Elbise</a></li>
+              <li><a href="#">Michael Kors Çanta</a></li>
+              <li><a href="#">Moncler Mont</a></li>
+              <li><a href="#">Moncler Yelek</a></li>
+              <li><a href="#">Mont</a></li>
+              <li><a href="#">Mücevher</a></li>
+              <li><a href="#">Napapijri</a></li>
+              <li><a href="#">New Balance</a></li>
+              <li><a href="#">Nike Ayakkabı</a></li>
+              <li><a href="#">Nişan ve Düğün Elbiseleri</a></li>
+              <li><a href="#">Off-White</a></li>
+              <li><a href="#">Origins</a></li>
+              <li><a href="#">Palto</a></li>
+              <li><a href="#">Palm Angels</a></li>
+              <li><a href="#">Pantolon</a></li>
+              <li><a href="#">Pardösü</a></li>
+              <li><a href="#">Parfüm</a></li>
+              <li><a href="#">Pijama</a></li>
+              <li><a href="#">Plaj Havlusu</a></li>
+              <li><a href="#">Plaj Terliği</a></li>
+              <li><a href="#">Polo Ralph Lauren</a></li>
+              <li><a href="#">Polo Yaka Tshirt</a></li>
+              <li><a href="#">Prada Ayakkabı</a></li>
+              <li><a href="#">Prada Çanta</a></li>
+              <li><a href="#">Prada Gözlük</a></li>
+              <li><a href="#">Premiata</a></li>
+              <li><a href="#">Puma Ayakkabı</a></li>
+          </ul>
+      </div>
+      <div class="col-md-2">
+          <ul class="list-unstyled">
+              <li><a href="#">Rayban Gözlük</a></li>
+              <li><a href="#">Saint Laurent Çanta</a></li>
+              <li><a href="#">Sandalet</a></li>
+              <li><a href="#">Sevgililer Günü</a></li>
+              <li><a href="#">Sevgiliye Hediye Fikirleri</a></li>
+              <li><a href="#">Sırt Çantası</a></li>
+              <li><a href="#">Skechers</a></li>
+              <li><a href="#">Spor Giyim</a></li>
+              <li><a href="#">Sneakers</a></li>
+              <li><a href="#">Sütyen</a></li>
+              <li><a href="#">Sweatshirt</a></li>
+              <li><a href="#">Şapka</a></li>
+              <li><a href="#">Şemsiye</a></li>
+              <li><a href="#">Şort</a></li>
+              <li><a href="#">Takı</a></li>
+              <li><a href="#">Takım Elbise</a></li>
+              <li><a href="#">Tayt</a></li>
+              <li><a href="#">T-Shirt</a></li>
+              <li><a href="#">Terlik</a></li>
+              <li><a href="#">Triko</a></li>
+              <li><a href="#">Ugg Bot</a></li>
+              <li><a href="#">Yağmurluk</a></li>
+              <li><a href="#">Yelek</a></li>
+              <li><a href="#">YSL Libre</a></li>
+          </ul>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="more-link-container">
+    <a href="#" id="show-categories-link" class="more-link">DAHA FAZLA GÖSTER</a>
+    
+</div>
+
+
+<div class="footer-top">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card-body">
+                <div class="icon-title">
+                    <i class="fa-sharp fa-solid fa-truck-moving"></i>
+                    </div>
+                <h6 class="card-title">ÜCRETSİZ KARGO</h6>
+                <p class="card-text">1000 TL ve üzeri alışverişlerde kargo ücretsiz . The One Üyelerine alt limitsiz ücretsiz kargo ayrıcalığı.</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card-body">
+                <div class="icon-title">
+                  <i class="fa-sharp fa-solid fa-truck-moving"></i>
+                 
+                </div>
+                <h6 class="card-title">MAĞAZADAN TESLİM</h6>
+                <p class="card-text">Online satın aldığınız ürünleri mağazalarımızdan <br> teslim alabilirsiniz.</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card-body">
+                <div class="icon-title">
+                    <i class="fa-sharp fa-solid fa-truck-moving"></i>
+                </div>
+                <h6 class="card-title">KOLAY İADE</h6>
+
+                <p class="card-text">Beymen.com'dan satın aldığınız ürünleri <br> kolaylıkla iade edebilirsiniz.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark py-5  footer-alt ">
+  <div class="container" >
+    <div class="row">
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="https://www.beymen.com/tr/tarihce-c-336" >BEYMEN HAKKINDA</a></li>
+          <li><a href="https://www.beymen.com/tr/home/sitemap" >Markalar</a></li>
+          <li><a href="https://www.beymen.com/tr/kosulsuz-musteri-mutlulugu-c-338" >Koşulsuz Müşteri Mutluluğu</a></li>
+          <li><a href="https://www.beymen.com/tr/theone-c">Tek Kart</a></li>
+          <li><a href="https://www.beymen.com/tr/ozel-dikim-c-340" >Özel Terzilik</a></li>
+          <li><a href="https://www.beymen.com/tr/hediye-danismanligi-c-341" >Hediye Danışmanlığı</a></li>
+          <li><a href="https://www.beymen.com/tr/beymenprive-c-2035" >Beymen Privé – Style Consultancy</a></li>
+          <li><a href="https://www.beymen.com/tr/kurumsal-satis-c-342" >Kurumsal Satışlar</a></li>
+          <li><a href="https://e-sirket.mkk.com.tr/?page=company&company=10896#" >Bilgi Toplumu Hizmetleri</a></li>
+          <li><a href="https://hr.beymen.com/" >İnsan Kaynakları</a></li>
+          <li><a href="https://www.beymen.com/tr/about-beymen-c-343" >Beymen Hakkında</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="https://www.beymen.com/tr/musteri-hizmetleri-c-375">MÜŞTERİ HİZMETLERİ</a></li>
+          <li><a href="https://www.beymen.com/tr/bize-sorun">Bize Sorun</a></li>
+          <li><a href="https://www.beymen.com/tr/sikca-sorulan-sorular-c-332">Sıkça Sorulan Sorular</a></li>
+          <li><a href="https://www.beymen.com/tr/beymen-islem-rehberi-c-2141">İşlem Rehberi</a></li>
+          <li><a href="https://www.beymen.com/tr/ucretsiz-kargo-iade-c-333">Ücretsiz Kargo ve İade</a></li>
+          <li><a href="https://www.beymen.com/tr/magazadan-teslim-c-334">Mağazadan Teslim Al</a></li>
+          <li><a href="https://www.beymen.com/tr/uyelik-sozlesmesi-c-346">Üyelik Sözleşmesi</a></li>
+          <li><a href="#">Site Haritası</a></li>
+          <li><a href="https://www.beymen.com/tr/aydinlatma-metinleri-c-345">Kişisel Verilerin Korunması</a></li>
+          <li><a href="https://www.beymen.com/tr/iletisim-c-1054">İletişim</a></li>
+          <li><a href="https://www.beymen.com/tr/satici-basvuru-formu">Satıcı Olmak İstiyorum</a></li>
+          <li><a href="https://www.beymen.com/tr/kampanya-kosullari-c-2154">Kampanya Koşulları</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="https://www.beymen.com/tr/customer/login?returnUrl=/tr/customer/order">HESABIM</a></li>
+          <li><a href="https://www.beymen.com/tr/customer/login?returnUrl=/tr/customer/order">Siparişlerim</a></li>
+          <li><a href="https://www.beymen.com/tr/customer/login?returnUrl=/tr/customer/address">Adreslerim</a></li>
+          <li><a href="https://www.beymen.com/tr/customer/login?returnUrl=/tr/customer/info">Üyelik Bilgilerim</a></li> <br>
+          <li><a href="https://www.beymen.com/tr/magazalar">MAĞAZALAR</a></li><br>
+          <li><a href="https://blog.beymen.com/">BEYMEN BLOG</a></li><br>
+          <li><a href="https://www.beymen.com/tr/lookbook-c-1502">BEYMEN MAGAZINE</a></li>
+        </ul>
+      </div>
+    <div class="col-md-2">
+      <ul class="list-unstyled">
+         <li style="color: white;">ÖZEL SAYFALAR</li>
+        <li><a href="https://www.beymen.com/en/christmas-gifts">Noel</a></li>
+        <li><a href="https://www.beymen.com/en/lovers-that-gift-sequins-53731">Sevgililer Günü</a></li>
+        <li><a href="https://www.beymen.com/en/living-gift-mothers-gunu-gifts-54528">Anneler Günü</a></li>
+        <li><a href="https://www.beymen.com/en/living-gift-dads-gunu-55832">Babalar Günü</a></li>
+        <li><a href="https://www.beymen.com/tr/11-11-kampanyasi-60608">11.11 Kampanyası</a></li>
+        <li><a href="https://www.beymen.com/tr/dugun-ve-nisan-elbise-modelleri-60346">Nişan ve Düğün Elbiseleri</a></li>
+        <li><a href="https://www.beymen.com/tr/mezuniyet-ve-balo-elbise-modelleri-49712">Mezuniyet ve Balo Elbiseleri</a></li>
+        <li><a href="https://www.beymen.com/tr/yasam-stil-onerisi-kadinlar-gunu-ozel-urunleri-94405">Dünya Kadınlar Günü</a></li>
+        <li><a href="https://www.beymen.com/dunya-caz-gunu-101129">Dünya Caz Günü</a></li>
+        <li><a href="https://www.beymen.com/dunya-muzik-gunu-101128">Dünya Müzik Günü</a></li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <img src="image/beymen-logo-dot-white.svg" alt="">
+      <hr style="border-bottom: 1px solid white; ">
+      <h6>BİZİ TAKİP EDİN  </h6>
+      <div class="col-md-12" style="color: white;">
+
+     <a href="https://www.facebook.com/Beymen/"><i class="fa-brands fa-facebook"></i></a>   
+       <a href="https://x.com/beymen"><i class="fa-brands fa-twitter"></i></a> 
+        <a href="https://www.instagram.com/beymen/"><i class="fa-brands fa-instagram"></i></a>
+       <a href="https://www.youtube.com/channel/UCMYUy0Zgm93UjonhZN8rVMQ"> <i class="fa-brands fa-youtube"></i></a>
+        <a href="https://tr.pinterest.com/beymen/"><i class="fa-brands fa-pinterest"></i></a>
+       <a href="https://linkedin.com"> <i class="fa-brands fa-linkedin"></i></a>
+
+       <h6>UYGULAMAMIZI İNDİRİN </h6>
+
+       <div class="col-md-12"  >
+        <a href="https://apps.apple.com/tr/app/beymen/id828339291"><img src="image/apple-store-en.svg" alt=""></a>
+        <a href="https://play.google.com/store/apps/details?id=com.mobisoft.beymen&pli=1"><img src="image/play-store-en.svg" alt=""></a> 
+        <div class="col-md-4">
+          <a href="https://appgallery.huawei.com/app/C110235409?sharePrepath=ag&locale=en_US&source=appshare&subsource=C110235409&shareTo=com.android.bluetooth&shareFrom=appmarket&shareIds=e46e94bd97e546fca8db89abd1020d0e_com.android.bluetooth&callType=SHARE" class="apple"><img src="image/hauwei-appgallery-en.svg" alt=""></a>
+
+        </div>
+
+        <div class="col-md-12 text-center">
+          <a href="https://eticaret.gov.tr/siteprofil/5A8D5DE497934CA893CA85CFEF729C65/wwwbeymencom" class="etbis"><img src="image/etbis.jpg" alt=""></a>
+          <a href="#"><button class="cookie" data-toggle="modal" data-target="#cookieModal">Cookie Preferences</button></a>
+
+        </div>
+        
+ 
+
+
+    </div>
+         </div>
+      
+       </div>
+      
+  </div>
+  
+ 
+    </div>
+    
+  </div>
+</div>
+
+
+
+<hr style="border-bottom: 1px solid white; height: 30px; margin-left: 50px; margin-right:60px;">
+
+
+<div style="display: flex; justify-content: space-between;">
+
+  <p style="color: white; padding-left: 40px; font-size: small; ">© 2024 Beymen, Tüm Hakları Saklıdır </p>
+  <a href="#" class="link-item " id="link-tr" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" style="margin-right: 55px; margin-top:-5px; font-size: 10px; ">
+    <i class="fa-solid fa-globe"style="font-size: 14px;"></i> TR
+</a>
+</div>
+
+
+
+
+
+
+</footer >
+
+
+
+
+
+
+  <!-- Scroll to Top Button -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+   <p> ↑</p>
+</div>
+<script src="js/bootstrap.min.js"></script>
+ <script src="js/jsKodlari.js"></script>
+</body>
+</html>
