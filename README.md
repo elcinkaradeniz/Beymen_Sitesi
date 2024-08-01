@@ -35,6 +35,6 @@ Bu projeye katkıda bulunmak isterseniz, lütfen pull request gönderin veya bir
 
 Bu proje, [MIT Lisansı](LICENSE) altında lisanslanmıştır.
 
-# Projenin Canlı Halini Bu aşağıdaki linkte bulabilirsiniz: 
+# CANLI ÖNİZLEME: 
 
-https://beymen-web-sitesi.netlify.app/
+Projeyi canlı olarak şu adreste görüntüleyebilirsiniz:  https://beymen-web-sitesi.netlify.app/
